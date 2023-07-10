@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Bai3">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Thể tích khối lập phương"
+      android:layout_gravity="center"
+      android:textStyle="bold"
+      android:textSize="23sp"/>
+    <EditText
+        android:id="@+id/edtcanh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="cạnh"/>
+    <Button
+        android:id="@+id/btngui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả:"
+        android:id="@+id/txtketquabai3"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
